@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <table id="wrapper" border="1" align="center" onClick="calculater()">
+        <tr id="display">
+            <td colspan="4">0</td>
+        </tr>
+        <tr>
+            <td class="num-keys" id="delete-key">AC</td>
+            <td class="num-keys">+/-</td>
+            <td class="num-keys">%</td>
+            <td class="num-keys">/</td>
+        </tr>
+        <tr>
+            <td class="num-keys">7</td>
+            <td class="num-keys">8</td>
+            <td class="num-keys">9</td>
+            <td class="num-keys">*</td>
+        </tr>
+        <tr>
+            <td class="num-keys">4</td>
+            <td class="num-keys">5</td>
+            <td class="num-keys">6</td>
+            <td class="num-keys">-</td>
+        </tr>
+        <tr>
+            <td class="num-keys">1</td>
+            <td class="num-keys">2</td>
+            <td class="num-keys">3</td>
+            <td class="num-keys">+</td>
+        </tr>
+        <tr>
+            <td class="num-keys"  colspan="2">0</td>
+            <td class="num-keys">.</td>
+            <td class="num-keys" id="results-key" onclick="resultscalculate()">=</td>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
